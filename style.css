@@ -1,0 +1,52 @@
+body {
+  font-family: Comic Sans MS, sans-serif;
+  background: #CCFFFF;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #1e3d59;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+}
+
+.centered-img {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.centered-img img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* ensures centering regardless of viewport */
+}
+
+.side-img {
+  width: 48%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px 1%;
+}
+
+ul {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+img {
+  border-radius: 8px;
+}
